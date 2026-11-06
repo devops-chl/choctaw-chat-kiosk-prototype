@@ -70,8 +70,19 @@ export function Chat({
     setOrigin(window.location.origin);
   }, []);
 
+  // Scroll on new activity, not on first paint (a phone handoff should open at the top).
+  const lastTurnRef = useRef<HTMLDivElement>(null);
+  const seen = useRef({ count: turns.length, loading: false });
   useEffect(() => {
-    endRef.current?.scrollIntoView({ block: "end" });
+    if (seen.current.count === turns.length && seen.current.loading === loading) return;
+    seen.current = { count: turns.length, loading };
+    const last = turns[turns.length - 1];
+    if (!loading && last?.role === "assistant") {
+      // Show the start of the new answer; its cards follow below.
+      lastTurnRef.current?.scrollIntoView({ block: "start" });
+    } else {
+      endRef.current?.scrollIntoView({ block: "end" });
+    }
   }, [turns, loading]);
 
   const reset = useCallback(() => {
@@ -218,7 +229,11 @@ export function Chat({
           )}
 
           {turns.map((t, i) => (
-            <div key={t.id} className={`turn turn--${t.role}${t.error ? " turn--error" : ""}`}>
+            <div
+              key={t.id}
+              ref={i === turns.length - 1 ? lastTurnRef : undefined}
+              className={`turn turn--${t.role}${t.error ? " turn--error" : ""}`}
+            >
               <p className="bubble">{t.content}</p>
               {t.venues && t.venues.length > 0 && (
                 <div className="cards">
@@ -274,7 +289,7 @@ export function Chat({
               className="composer__input"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder={listening ? "Listening…" : "Ask about food and drinks"}
+              placeholder={listening ? "Listening…" : surface === "kiosk" ? "Ask about food and drinks" : "Ask a question"}
               autoComplete="off"
               enterKeyHint="send"
               maxLength={500}

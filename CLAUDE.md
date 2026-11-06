@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `HANDOFF.md` is the full build brief: scope, seed data, tool specs, UI requirements, the phased build order (section 10), and the acceptance demo script (section 11). Read it before starting any phase. This file only summarizes it. If they disagree, `HANDOFF.md` wins.
 
-Status: phases 1–4 (scaffold, lib helpers, concierge API, kiosk UI) are done. Commit after each phase in section 10, and update this line as phases land.
+Status: phases 1–5 (scaffold, lib helpers, concierge API, kiosk UI, phone handoff) are done. Next: phase 6 (sync script). Commit after each phase in section 10, and update this line as phases land.
 
 ## What this is
 
