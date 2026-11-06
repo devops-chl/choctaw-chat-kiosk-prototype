@@ -62,7 +62,16 @@ export function decodeHandoff(token: string): Handoff | null {
   }
 }
 
+const LOCAL_ORIGIN = /^https?:\/\/(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$/;
+
+/**
+ * Where the QR sends the phone. A deployed kiosk always uses its own origin, so
+ * QR codes can't point at a stale deployment. NEXT_PUBLIC_BASE_URL only applies
+ * when the kiosk runs on localhost, so a phone on the same Wi-Fi can reach it.
+ */
 export function handoffUrl(h: Handoff, origin?: string): string {
-  const base = (process.env.NEXT_PUBLIC_BASE_URL || origin || "").replace(/\/+$/, "");
+  const env = process.env.NEXT_PUBLIC_BASE_URL;
+  const useEnv = !!env && (!origin || LOCAL_ORIGIN.test(origin));
+  const base = ((useEnv ? env : origin) || "").replace(/\/+$/, "");
   return `${base}/c/${encodeHandoff(h)}`;
 }
