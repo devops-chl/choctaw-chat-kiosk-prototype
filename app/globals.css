@@ -9,6 +9,10 @@
   --brass: #c8a250; /* primary accent and buttons */
   --ivory: #f4efe4; /* text */
   --mist: #a3abc6; /* secondary text */
+  --on-brass: #141a33; /* text on brass buttons */
+  --qr-dark: #141a33; /* QR codes need strong dark-on-light contrast to scan */
+  --qr-light: #ffffff;
+  --danger: #e8a39b;
 
   --font-display: "Marcellus", Georgia, serif;
   --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -43,6 +47,15 @@ h3 {
 
 a {
   color: var(--brass);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 :focus-visible {

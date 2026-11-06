@@ -24,6 +24,9 @@ export type Surface = "kiosk" | "phone";
 
 export type ChatMessage = { role: "user" | "assistant"; content: string };
 
+/** A turn as shown in the UI: assistant turns carry their venue cards. */
+export type UiTurn = ChatMessage & { id: string; venues?: PublicVenue[]; error?: boolean };
+
 export type ChatRequest = { surface: Surface; messages: ChatMessage[] };
 export type ChatResponse = { reply: string; venues: PublicVenue[] };
 

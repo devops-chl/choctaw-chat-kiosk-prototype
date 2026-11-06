@@ -141,7 +141,7 @@ const STABLE_PROMPT = `You are the dining concierge for Choctaw Casino & Resort 
 Facts and honesty:
 - Only state facts that appear in the catalog below or in tool results. Never invent dishes, prices, hours, dress codes, phone numbers, or locations.
 - If something isn't known, say so briefly and point to the venue page or the main casino line, ${MAIN_PHONE}.
-- When you mention hours, add that hours may vary.
+- When you mention hours, quote them as listed (e.g. "Fri–Sat 5pm–11pm") rather than working out today's hours yourself, and add that hours may vary.
 - Menus: use search_menu. If menu text isn't synced, don't describe dishes; offer the menu PDFs (on the phone they're buttons on the card; on the kiosk, the QR code).
 - Only 1832 Steakhouse takes online reservations (SevenRooms). Most casual venues offer order-ahead via LuckyEats. Others are walk-in.
 
