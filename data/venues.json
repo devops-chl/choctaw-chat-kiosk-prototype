@@ -1,0 +1,430 @@
+[
+  {
+    "id": "1832-steakhouse",
+    "name": "1832 Steakhouse",
+    "category": "Fine Dining",
+    "blurb": "Award-winning steak and seafood with scenic views, an extensive wine list, and private rooms for special occasions.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/1832-steakhouse/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics3.jpg",
+    "tags": [
+      "upscale",
+      "sit-down",
+      "steak",
+      "seafood",
+      "wine",
+      "date night",
+      "special occasion",
+      "private rooms"
+    ],
+    "location": "Sky Casino",
+    "hours": "Sun–Thu 5pm–10pm; Fri–Sat 5pm–11pm (hours may vary)",
+    "menus": [
+      {
+        "label": "Main menu",
+        "url": "https://www.choctawcasinos.com/wp-content/uploads/2025/01/1832-menu.pdf"
+      },
+      {
+        "label": "Dessert menu",
+        "url": "https://www.choctawcasinos.com/wp-content/uploads/2023/06/1628972-DUR-June-1832DessertMenuUpdate-Web_rev1.pdf"
+      },
+      {
+        "label": "Beverage menu",
+        "url": "https://www.choctawcasinos.com/wp-content/uploads/2026/05/1832-beverage.pdf"
+      }
+    ],
+    "reservationUrl": "https://www.sevenrooms.com/reservations/1832steakhouse"
+  },
+  {
+    "id": "salt-stone",
+    "name": "Salt & Stone",
+    "category": "Casual Dining",
+    "blurb": "Surf and turf dishes made with fresh ingredients.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/salt-stone/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics9.jpg",
+    "tags": [
+      "sit-down",
+      "steak",
+      "seafood",
+      "surf and turf"
+    ],
+    "location": "Sky Casino",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "the-league",
+    "name": "The League",
+    "category": "Casual Dining",
+    "blurb": "Sports bar for catching a game and grabbing a beer.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/things-to-do/the-league/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics13.jpg",
+    "tags": [
+      "sports bar",
+      "beer",
+      "games on TV"
+    ],
+    "location": "Sky Casino",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "starbucks",
+    "name": "Starbucks",
+    "category": "Casual Dining",
+    "blurb": "Starbucks coffee and espresso drinks.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/starbucks/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics5.jpg",
+    "tags": [
+      "coffee",
+      "espresso",
+      "quick"
+    ],
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "guy-fieris",
+    "name": "Guy Fieri's American Kitchen + Bar",
+    "category": "Casual Dining",
+    "blurb": "Bold American comfort food and bar favorites from Guy Fieri.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/guy-fieris/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/guy-fieri.jpg",
+    "tags": [
+      "sit-down",
+      "american",
+      "burgers",
+      "bar"
+    ],
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "gilleys",
+    "name": "Gilley's Durant",
+    "category": "Casual Dining",
+    "blurb": "Live performances, cold beer, and down-home cooking.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/gilleys/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2022/07/line-dancing-boots_740x400.jpg",
+    "tags": [
+      "live music",
+      "southern",
+      "bar",
+      "dancing"
+    ],
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "grand-cafe",
+    "name": "Grand Café",
+    "category": "Casual Dining",
+    "blurb": "American classics with international twists.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/grand-cafe/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics21.jpg",
+    "tags": [
+      "sit-down",
+      "american",
+      "sandwiches"
+    ],
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "butterfields-buffet",
+    "name": "Butterfields Buffet",
+    "category": "Casual Dining",
+    "blurb": "Buffet ranging from Tex-Mex to Southern-style comfort food.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/butterfields-buffet/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2025/04/butterfields-buffet740x400.jpg",
+    "tags": [
+      "buffet",
+      "tex-mex",
+      "southern",
+      "groups"
+    ]
+  },
+  {
+    "id": "bamboo-noodle-bar",
+    "name": "Bamboo Noodle Bar",
+    "category": "Casual Dining",
+    "blurb": "Asian cuisine favorites in one place.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/bamboo-noodle-bar/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/bamboo.jpg",
+    "tags": [
+      "asian",
+      "noodles"
+    ],
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "velvet-taco",
+    "name": "Velvet Taco",
+    "category": "District Hall",
+    "blurb": "Creative, anything-goes tacos.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/velvet-taco/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2023/04/1578602-DUR-April-DistrictFoodHallWebRUSH-Velvet-Taco-740x402-1.jpg",
+    "tags": [
+      "tacos",
+      "quick",
+      "food hall"
+    ],
+    "location": "District Hall",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "italia-kitchen",
+    "name": "Italia Kitchen",
+    "category": "District Hall",
+    "blurb": "Italian cuisine made with fresh ingredients.",
+    "pageUrl": "https://www.choctawcasinos.com/italia-kitchen/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2023/04/1578602-DUR-April-DistrictFoodHallWebRUSH-ItaliaKitchen-740x402-1.jpg",
+    "tags": [
+      "italian",
+      "quick",
+      "food hall"
+    ],
+    "location": "District Hall",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "south-hot-chicken",
+    "name": "South Hot Chicken",
+    "category": "District Hall",
+    "blurb": "Hand-breaded chicken with a spicy kick.",
+    "pageUrl": "https://www.choctawcasinos.com/south-hot-chicken/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2023/04/1578602-DUR-April-DistrictFoodHallWebRUSH-South-740x402-1.jpg",
+    "tags": [
+      "chicken",
+      "spicy",
+      "quick",
+      "food hall"
+    ],
+    "location": "District Hall",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "the-pit",
+    "name": "The Pit",
+    "category": "District Hall",
+    "blurb": "Barbecue.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/the-pit/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2023/04/1578602-DUR-April-DistrictFoodHallWebRUSH-ThePit-740x402-1.jpg",
+    "tags": [
+      "bbq",
+      "quick",
+      "food hall"
+    ],
+    "location": "District Hall",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "slushd",
+    "name": "Slush'D Frozen Daiquiris",
+    "category": "District Hall",
+    "blurb": "Specialty frozen drinks in a variety of flavors.",
+    "pageUrl": "https://www.choctawcasinos.com/slushd-frozen-daiquiris/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2023/04/1578602-DUR-April-DistrictFoodHallWebRUSH-SlushD-740x402-1.jpg",
+    "tags": [
+      "frozen drinks",
+      "daiquiris",
+      "cocktails"
+    ],
+    "location": "District Hall"
+  },
+  {
+    "id": "cinnabon",
+    "name": "Cinnabon",
+    "category": "Food Court",
+    "blurb": "Cinnamon rolls and sweet treats.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/cinnabon/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2022/10/1290857-FB-DUR-Sep-CinnabonComingSoon-740X400.jpg",
+    "tags": [
+      "dessert",
+      "cinnamon rolls",
+      "quick"
+    ],
+    "location": "Food Court",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "carvel",
+    "name": "Carvel",
+    "category": "Food Court",
+    "blurb": "Classic soft-serve ice cream.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/carvel/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2025/03/carvel740x400.jpg",
+    "tags": [
+      "dessert",
+      "ice cream",
+      "quick"
+    ],
+    "location": "Food Court",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "smashburger",
+    "name": "Smashburger",
+    "category": "Food Court",
+    "blurb": "Smashed burgers.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/smashburger/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/smashburger.jpg",
+    "tags": [
+      "burgers",
+      "quick"
+    ],
+    "location": "Food Court",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "papa-johns",
+    "name": "Papa John's Pizza",
+    "category": "Food Court",
+    "blurb": "Pizza.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/papa-johns-pizza/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/papa-johns.jpg",
+    "tags": [
+      "pizza",
+      "quick"
+    ],
+    "location": "Food Court",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "krispy-krunchy",
+    "name": "Krispy Krunchy Chicken",
+    "category": "Food Court",
+    "blurb": "Cajun-style chicken and honey butter biscuits.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/krispy-krunchy-chicken/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/krispy-krunchy-chicken.jpg",
+    "tags": [
+      "chicken",
+      "cajun",
+      "biscuits",
+      "quick"
+    ],
+    "location": "Food Court",
+    "orderAheadUrl": "https://durant-luckyeats.choctawcasinos.com/"
+  },
+  {
+    "id": "prizm-lounge",
+    "name": "Prizm Lounge",
+    "category": "Bars & Lounges",
+    "blurb": "World-class bar and lounge in the heart of the Sky Casino.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/prizm-lounge/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics27.jpg",
+    "tags": [
+      "lounge",
+      "cocktails",
+      "upscale"
+    ],
+    "location": "Sky Casino"
+  },
+  {
+    "id": "lobby-bar",
+    "name": "Lobby Bar",
+    "category": "Bars & Lounges",
+    "blurb": "A see-and-be-seen bar.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/lobby-bar/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics35.jpg",
+    "tags": [
+      "bar",
+      "cocktails"
+    ]
+  },
+  {
+    "id": "the-reserve",
+    "name": "The Reserve",
+    "category": "Bars & Lounges",
+    "blurb": "Artisan cocktail bar with an upscale feel.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/the-reserve/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics23.jpg",
+    "tags": [
+      "cocktails",
+      "upscale",
+      "craft cocktails"
+    ]
+  },
+  {
+    "id": "onyx-bar",
+    "name": "Onyx Bar",
+    "category": "Bars & Lounges",
+    "blurb": "Bar in the High Limits area.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/onyx-bar/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics31.jpg",
+    "tags": [
+      "bar",
+      "high limits"
+    ],
+    "location": "Sky Casino (High Limits)"
+  },
+  {
+    "id": "mason-jar-bar",
+    "name": "Mason Jar Bar",
+    "category": "Bars & Lounges",
+    "blurb": "Bar at the heart of the Link Casino.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/mason-jar-bar/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/mason-jar.jpg",
+    "tags": [
+      "bar"
+    ],
+    "location": "Link Casino"
+  },
+  {
+    "id": "red-river-lounge",
+    "name": "Red River Lounge",
+    "category": "Bars & Lounges",
+    "blurb": "Full-service bar.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/red-river-lounge/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/red-river.jpg",
+    "tags": [
+      "bar"
+    ]
+  },
+  {
+    "id": "tailgaters-lounge",
+    "name": "Tailgater's Lounge",
+    "category": "Bars & Lounges",
+    "blurb": "Bar and lounge in The District.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/tailgaters-lounge/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/tailgater.jpg",
+    "tags": [
+      "bar",
+      "lounge"
+    ],
+    "location": "The District"
+  },
+  {
+    "id": "platinum-high-limit",
+    "name": "Platinum High Limit Lounge",
+    "category": "Bars & Lounges",
+    "blurb": "Premium bar with elite service.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/platinum-high-limit-lounge/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/high-limits.jpg",
+    "tags": [
+      "bar",
+      "premium",
+      "high limits"
+    ]
+  },
+  {
+    "id": "north-brew",
+    "name": "North Brew",
+    "category": "Bars & Lounges",
+    "blurb": "Walk-through spot for your favorite brew.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/north-brew/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/08/north-brew.jpg",
+    "tags": [
+      "beer",
+      "quick"
+    ]
+  },
+  {
+    "id": "grand-bakery",
+    "name": "Grand Bakery",
+    "category": "Dessert",
+    "blurb": "Bakery open 24 hours.",
+    "pageUrl": "https://www.choctawcasinos.com/durant/eat-drink/grand-bakery-2/",
+    "image": "https://www.choctawcasinos.com/wp-content/uploads/2021/12/966550-DUR-December-Webpics38.jpg",
+    "tags": [
+      "dessert",
+      "bakery",
+      "24 hours",
+      "late night"
+    ],
+    "hours": "Open 24 hours"
+  }
+]

@@ -1,0 +1,62 @@
+/*
+ * Design tokens. PLACEHOLDERS: replace with Choctaw brand values
+ * once the brand guide is in hand. Every color and font lives here.
+ */
+:root {
+  --night: #141a33; /* background, a nod to the Sky Tower */
+  --panel: #1f2747;
+  --line: #2e3760;
+  --brass: #c8a250; /* primary accent and buttons */
+  --ivory: #f4efe4; /* text */
+  --mist: #a3abc6; /* secondary text */
+
+  --font-display: "Marcellus", Georgia, serif;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--night);
+  color: var(--ivory);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+a {
+  color: var(--brass);
+}
+
+:focus-visible {
+  outline: 3px solid var(--brass);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
